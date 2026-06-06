@@ -1,0 +1,933 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/joaquin/grado"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/joaquin/grado">
+    <Prefix name="" IRI="http://www.semanticweb.org/joaquin/grado"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7AVzwJYtdu5cTNJCoxo7sC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8Q3oOsOWe1bjX7o53Rbj6I"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R99LK4IBiy48VIotHUKxGKP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBE6yYOFpQPGJ6Ctpf1g5q"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBVxLPWWtLSSzEQcOR5ZbUe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBcFt929wH7W43eLMSGKPVm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCbqxR5efvcqilnp0x4MXn2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cliente_Joven"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cliente_Mayor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cliente_Nino"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Cliente_Objetivo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Cliente_Perfil"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Ingrediente_Nutriente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Receta_Cliente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Receta_Ingrediente"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7wW4GOOYOQBAyfzaWPDXJI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/R84RMoCadwsyWxsDv9aRdiz"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/R8szJpulrIqmxbthMlp1uHa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/R8v7SqwYawqJrQAqjOeIEqX"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/R9qHGnAi4WW92riI6k6vDbb"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBeFZZETJ6Oi4XjDBJq2tGI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBqYRcNwm4j77vm5hXEQKF"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCJJ7jJ01Tx79CQzg50kPrN"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCMaGS9eug5Lhys9uBNsCRc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCp2Tswhp8MMB7fqM43m5WG"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCwcjIiohRtTvzVN2Aoc9lY"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/RhG6dPN8wMyN5pqNR21RZe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alergias"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Dinero"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Edad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Frutas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Grasas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Gustos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Lipido"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#N_Cliente"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Objetivo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Vitamina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cliente1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cliente2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cliente3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cliente4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingrediente1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingrediente2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingrediente3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingrediente4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingrediente5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Objetivo1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Objetivo2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perfil1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perfil2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perfil3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perfil4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Receta1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Receta2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Receta3"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://webprotege.stanford.edu/R7AVzwJYtdu5cTNJCoxo7sC"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#Receta_Ingrediente"/>
+                <Class IRI="http://webprotege.stanford.edu/RBE6yYOFpQPGJ6Ctpf1g5q"/>
+            </ObjectSomeValuesFrom>
+            <ObjectMinCardinality cardinality="4">
+                <ObjectProperty IRI="#Receta_Ingrediente"/>
+                <Class IRI="http://webprotege.stanford.edu/RBE6yYOFpQPGJ6Ctpf1g5q"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://webprotege.stanford.edu/R99LK4IBiy48VIotHUKxGKP"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#Receta_Ingrediente"/>
+                <Class IRI="http://webprotege.stanford.edu/RBE6yYOFpQPGJ6Ctpf1g5q"/>
+            </ObjectSomeValuesFrom>
+            <ObjectMaxCardinality cardinality="5">
+                <ObjectProperty IRI="#Receta_Ingrediente"/>
+                <Class IRI="http://webprotege.stanford.edu/RBE6yYOFpQPGJ6Ctpf1g5q"/>
+            </ObjectMaxCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cliente_Joven"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://webprotege.stanford.edu/RBVxLPWWtLSSzEQcOR5ZbUe"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#Edad"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cliente_Mayor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://webprotege.stanford.edu/RBVxLPWWtLSSzEQcOR5ZbUe"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#Edad"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cliente_Nino"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://webprotege.stanford.edu/RBVxLPWWtLSSzEQcOR5ZbUe"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#Edad"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Cliente_Nino"/>
+        <Class IRI="http://webprotege.stanford.edu/RBVxLPWWtLSSzEQcOR5ZbUe"/>
+    </SubClassOf>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Cliente_Objetivo"/>
+        <NamedIndividual IRI="#Cliente1"/>
+        <NamedIndividual IRI="#Objetivo1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Cliente_Perfil"/>
+        <NamedIndividual IRI="#Cliente1"/>
+        <NamedIndividual IRI="#Perfil1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Receta_Cliente"/>
+        <NamedIndividual IRI="#Cliente1"/>
+        <NamedIndividual IRI="#Receta1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Cliente_Objetivo"/>
+        <NamedIndividual IRI="#Cliente2"/>
+        <NamedIndividual IRI="#Objetivo2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Cliente_Perfil"/>
+        <NamedIndividual IRI="#Cliente2"/>
+        <NamedIndividual IRI="#Perfil4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Cliente_Objetivo"/>
+        <NamedIndividual IRI="#Cliente3"/>
+        <NamedIndividual IRI="#Objetivo1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Cliente_Perfil"/>
+        <NamedIndividual IRI="#Cliente3"/>
+        <NamedIndividual IRI="#Perfil3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Receta_Cliente"/>
+        <NamedIndividual IRI="#Cliente3"/>
+        <NamedIndividual IRI="#Receta3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Cliente_Objetivo"/>
+        <NamedIndividual IRI="#Cliente4"/>
+        <NamedIndividual IRI="#Objetivo2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Cliente_Perfil"/>
+        <NamedIndividual IRI="#Cliente4"/>
+        <NamedIndividual IRI="#Perfil2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Receta_Cliente"/>
+        <NamedIndividual IRI="#Cliente4"/>
+        <NamedIndividual IRI="#Receta1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Receta_Cliente"/>
+        <NamedIndividual IRI="#Objetivo2"/>
+        <NamedIndividual IRI="#Receta2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Receta_Ingrediente"/>
+        <NamedIndividual IRI="#Receta1"/>
+        <NamedIndividual IRI="#Ingrediente1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Receta_Ingrediente"/>
+        <NamedIndividual IRI="#Receta1"/>
+        <NamedIndividual IRI="#Ingrediente2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Receta_Ingrediente"/>
+        <NamedIndividual IRI="#Receta1"/>
+        <NamedIndividual IRI="#Ingrediente3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Receta_Ingrediente"/>
+        <NamedIndividual IRI="#Receta1"/>
+        <NamedIndividual IRI="#Ingrediente4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Receta_Ingrediente"/>
+        <NamedIndividual IRI="#Receta2"/>
+        <NamedIndividual IRI="#Ingrediente1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Receta_Ingrediente"/>
+        <NamedIndividual IRI="#Receta2"/>
+        <NamedIndividual IRI="#Ingrediente3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Receta_Ingrediente"/>
+        <NamedIndividual IRI="#Receta3"/>
+        <NamedIndividual IRI="#Ingrediente1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Edad"/>
+        <NamedIndividual IRI="#Cliente1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#N_Cliente"/>
+        <NamedIndividual IRI="#Cliente1"/>
+        <Literal>Joaquin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Edad"/>
+        <NamedIndividual IRI="#Cliente2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#N_Cliente"/>
+        <NamedIndividual IRI="#Cliente2"/>
+        <Literal>Miguel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Edad"/>
+        <NamedIndividual IRI="#Cliente3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#N_Cliente"/>
+        <NamedIndividual IRI="#Cliente3"/>
+        <Literal>Alvaro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Edad"/>
+        <NamedIndividual IRI="#Cliente4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#N_Cliente"/>
+        <NamedIndividual IRI="#Cliente4"/>
+        <Literal>Raul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBqYRcNwm4j77vm5hXEQKF"/>
+        <NamedIndividual IRI="#Ingrediente1"/>
+        <Literal>Macarrones</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBqYRcNwm4j77vm5hXEQKF"/>
+        <NamedIndividual IRI="#Ingrediente2"/>
+        <Literal>Tomate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBqYRcNwm4j77vm5hXEQKF"/>
+        <NamedIndividual IRI="#Ingrediente3"/>
+        <Literal>Pollo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBqYRcNwm4j77vm5hXEQKF"/>
+        <NamedIndividual IRI="#Ingrediente4"/>
+        <Literal>Arroz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBqYRcNwm4j77vm5hXEQKF"/>
+        <NamedIndividual IRI="#Ingrediente5"/>
+        <Literal>ComidaRandom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Objetivo"/>
+        <NamedIndividual IRI="#Objetivo1"/>
+        <Literal>Perder peso</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Objetivo"/>
+        <NamedIndividual IRI="#Objetivo2"/>
+        <Literal>Ganar masa muscular</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alergias"/>
+        <NamedIndividual IRI="#Perfil1"/>
+        <Literal>Intolerancia a la lactosa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alergias"/>
+        <NamedIndividual IRI="#Perfil2"/>
+        <Literal>Ninguna</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alergias"/>
+        <NamedIndividual IRI="#Perfil3"/>
+        <Literal>Diabetes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alergias"/>
+        <NamedIndividual IRI="#Perfil4"/>
+        <Literal>Frutas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R8szJpulrIqmxbthMlp1uHa"/>
+        <NamedIndividual IRI="#Receta1"/>
+        <Literal>Pollo con arroz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R8szJpulrIqmxbthMlp1uHa"/>
+        <NamedIndividual IRI="#Receta2"/>
+        <Literal>Arepas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R8szJpulrIqmxbthMlp1uHa"/>
+        <NamedIndividual IRI="#Receta3"/>
+        <Literal>Lentejas</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Cliente_Objetivo"/>
+        <Class IRI="http://webprotege.stanford.edu/RBVxLPWWtLSSzEQcOR5ZbUe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Cliente_Perfil"/>
+        <Class IRI="http://webprotege.stanford.edu/RBVxLPWWtLSSzEQcOR5ZbUe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Ingrediente_Nutriente"/>
+        <Class IRI="http://webprotege.stanford.edu/RBE6yYOFpQPGJ6Ctpf1g5q"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Receta_Cliente"/>
+        <Class IRI="http://webprotege.stanford.edu/R99LK4IBiy48VIotHUKxGKP"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Receta_Ingrediente"/>
+        <Class IRI="http://webprotege.stanford.edu/R99LK4IBiy48VIotHUKxGKP"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Cliente_Objetivo"/>
+        <Class IRI="http://webprotege.stanford.edu/RCbqxR5efvcqilnp0x4MXn2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Cliente_Perfil"/>
+        <Class IRI="http://webprotege.stanford.edu/RBcFt929wH7W43eLMSGKPVm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Ingrediente_Nutriente"/>
+        <Class IRI="http://webprotege.stanford.edu/R8Q3oOsOWe1bjX7o53Rbj6I"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Receta_Cliente"/>
+        <Class IRI="http://webprotege.stanford.edu/RBVxLPWWtLSSzEQcOR5ZbUe"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Receta_Ingrediente"/>
+        <Class IRI="http://webprotege.stanford.edu/RBE6yYOFpQPGJ6Ctpf1g5q"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7wW4GOOYOQBAyfzaWPDXJI"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/R84RMoCadwsyWxsDv9aRdiz"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/R8szJpulrIqmxbthMlp1uHa"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/R8v7SqwYawqJrQAqjOeIEqX"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/R9qHGnAi4WW92riI6k6vDbb"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBeFZZETJ6Oi4XjDBJq2tGI"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBqYRcNwm4j77vm5hXEQKF"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCJJ7jJ01Tx79CQzg50kPrN"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCMaGS9eug5Lhys9uBNsCRc"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCp2Tswhp8MMB7fqM43m5WG"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCwcjIiohRtTvzVN2Aoc9lY"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/RhG6dPN8wMyN5pqNR21RZe"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Alergias"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Dinero"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Edad"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Frutas"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Grasas"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Gustos"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Lipido"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#N_Cliente"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Objetivo"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Vitamina"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7wW4GOOYOQBAyfzaWPDXJI"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://webprotege.stanford.edu/R84RMoCadwsyWxsDv9aRdiz"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://webprotege.stanford.edu/R8szJpulrIqmxbthMlp1uHa"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://webprotege.stanford.edu/R8v7SqwYawqJrQAqjOeIEqX"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://webprotege.stanford.edu/R9qHGnAi4WW92riI6k6vDbb"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBeFZZETJ6Oi4XjDBJq2tGI"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBqYRcNwm4j77vm5hXEQKF"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCJJ7jJ01Tx79CQzg50kPrN"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCMaGS9eug5Lhys9uBNsCRc"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCp2Tswhp8MMB7fqM43m5WG"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCwcjIiohRtTvzVN2Aoc9lY"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://webprotege.stanford.edu/RhG6dPN8wMyN5pqNR21RZe"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Alergias"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Dinero"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Edad"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Grasas"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Gustos"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Lipido"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#N_Cliente"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Objetivo"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Vitamina"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7wW4GOOYOQBAyfzaWPDXJI"/>
+        <Class IRI="http://webprotege.stanford.edu/R99LK4IBiy48VIotHUKxGKP"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://webprotege.stanford.edu/R8szJpulrIqmxbthMlp1uHa"/>
+        <Class IRI="http://webprotege.stanford.edu/R99LK4IBiy48VIotHUKxGKP"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://webprotege.stanford.edu/R8v7SqwYawqJrQAqjOeIEqX"/>
+        <Class IRI="http://webprotege.stanford.edu/R99LK4IBiy48VIotHUKxGKP"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBeFZZETJ6Oi4XjDBJq2tGI"/>
+        <Class IRI="http://webprotege.stanford.edu/R8Q3oOsOWe1bjX7o53Rbj6I"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBqYRcNwm4j77vm5hXEQKF"/>
+        <Class IRI="http://webprotege.stanford.edu/RBE6yYOFpQPGJ6Ctpf1g5q"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCJJ7jJ01Tx79CQzg50kPrN"/>
+        <Class IRI="http://webprotege.stanford.edu/R99LK4IBiy48VIotHUKxGKP"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCMaGS9eug5Lhys9uBNsCRc"/>
+        <Class IRI="http://webprotege.stanford.edu/R99LK4IBiy48VIotHUKxGKP"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCp2Tswhp8MMB7fqM43m5WG"/>
+        <Class IRI="http://webprotege.stanford.edu/RBE6yYOFpQPGJ6Ctpf1g5q"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCwcjIiohRtTvzVN2Aoc9lY"/>
+        <Class IRI="http://webprotege.stanford.edu/R8Q3oOsOWe1bjX7o53Rbj6I"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://webprotege.stanford.edu/RhG6dPN8wMyN5pqNR21RZe"/>
+        <Class IRI="http://webprotege.stanford.edu/R99LK4IBiy48VIotHUKxGKP"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Alergias"/>
+        <Class IRI="http://webprotege.stanford.edu/RBcFt929wH7W43eLMSGKPVm"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Dinero"/>
+        <Class IRI="http://webprotege.stanford.edu/RBVxLPWWtLSSzEQcOR5ZbUe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Edad"/>
+        <Class IRI="http://webprotege.stanford.edu/RBVxLPWWtLSSzEQcOR5ZbUe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Frutas"/>
+        <Class IRI="http://webprotege.stanford.edu/R8Q3oOsOWe1bjX7o53Rbj6I"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Gustos"/>
+        <Class IRI="http://webprotege.stanford.edu/RBcFt929wH7W43eLMSGKPVm"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#N_Cliente"/>
+        <Class IRI="http://webprotege.stanford.edu/RBVxLPWWtLSSzEQcOR5ZbUe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Objetivo"/>
+        <Class IRI="http://webprotege.stanford.edu/RCbqxR5efvcqilnp0x4MXn2"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7wW4GOOYOQBAyfzaWPDXJI"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/R84RMoCadwsyWxsDv9aRdiz"/>
+        <DataOneOf>
+            <Literal>Azúcar</Literal>
+            <Literal>Cereal</Literal>
+            <Literal>Pasta</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/R8szJpulrIqmxbthMlp1uHa"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/R8v7SqwYawqJrQAqjOeIEqX"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/R9qHGnAi4WW92riI6k6vDbb"/>
+        <DataOneOf>
+            <Literal>Animal</Literal>
+            <Literal>Vegetal</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBeFZZETJ6Oi4XjDBJq2tGI"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBqYRcNwm4j77vm5hXEQKF"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCJJ7jJ01Tx79CQzg50kPrN"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCMaGS9eug5Lhys9uBNsCRc"/>
+        <DataOneOf>
+            <Literal>Cena</Literal>
+            <Literal>Comida</Literal>
+            <Literal>Desayuno</Literal>
+            <Literal>Merienda</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCp2Tswhp8MMB7fqM43m5WG"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/RCwcjIiohRtTvzVN2Aoc9lY"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/RhG6dPN8wMyN5pqNR21RZe"/>
+        <DataOneOf>
+            <Literal>Invierno</Literal>
+            <Literal>NoImportante</Literal>
+            <Literal>Verano</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alergias"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Dinero"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Edad"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Frutas"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Grasas"/>
+        <DataOneOf>
+            <Literal>Insaturada</Literal>
+            <Literal>Saturada</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Gustos"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Lipido"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#N_Cliente"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Objetivo"/>
+        <DataOneOf>
+            <Literal>Ganar masa muscular</Literal>
+            <Literal>Mejorar salud cardiovascular</Literal>
+            <Literal>Perder peso</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Vitamina"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7AVzwJYtdu5cTNJCoxo7sC</IRI>
+        <Literal>Receta_Lenta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7wW4GOOYOQBAyfzaWPDXJI</IRI>
+        <Literal>Descripción</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R84RMoCadwsyWxsDv9aRdiz</IRI>
+        <Literal>Carbohidratos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8Q3oOsOWe1bjX7o53Rbj6I</IRI>
+        <Literal>Nutrientes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8szJpulrIqmxbthMlp1uHa</IRI>
+        <Literal>Recetas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8v7SqwYawqJrQAqjOeIEqX</IRI>
+        <Literal>Cantidad_personas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R99LK4IBiy48VIotHUKxGKP</IRI>
+        <Literal>Receta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9qHGnAi4WW92riI6k6vDbb</IRI>
+        <Literal>Proteinas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBE6yYOFpQPGJ6Ctpf1g5q</IRI>
+        <Literal>Ingrediente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBVxLPWWtLSSzEQcOR5ZbUe</IRI>
+        <Literal>Cliente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBcFt929wH7W43eLMSGKPVm</IRI>
+        <Literal>Perfil_Cliente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBeFZZETJ6Oi4XjDBJq2tGI</IRI>
+        <Literal>Ganancias</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBqYRcNwm4j77vm5hXEQKF</IRI>
+        <Literal>N_Ingrediente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCJJ7jJ01Tx79CQzg50kPrN</IRI>
+        <Literal>Complejidad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCMaGS9eug5Lhys9uBNsCRc</IRI>
+        <Literal>Tipo_Comida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCbqxR5efvcqilnp0x4MXn2</IRI>
+        <Literal>Objetivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCp2Tswhp8MMB7fqM43m5WG</IRI>
+        <Literal>Precio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCwcjIiohRtTvzVN2Aoc9lY</IRI>
+        <Literal>Cantidad_nutrientes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RhG6dPN8wMyN5pqNR21RZe</IRI>
+        <Literal>Estacion_del_ano</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
